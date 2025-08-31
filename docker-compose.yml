@@ -1,5 +1,5 @@
 services:
-  student01:
+  student04:
     build: ./services/student04
     container_name: student04
     ports:
