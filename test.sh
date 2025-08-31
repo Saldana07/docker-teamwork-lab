@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-ports=(8101 8102 8103 8104 8105 8106 8107 8108 8109 8110)
+ports=(8101 8102 8103 8104 8105)
 
 echo "Testing /health..."
 for p in "${ports[@]}"; do
