@@ -22,7 +22,7 @@ services:
       retries: 5
 
   student03:
-    build: ./services/student3
+    build: ./services/student03
     container_name: student03
     ports:
       - "8103:8080"
