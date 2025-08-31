@@ -1,9 +1,9 @@
 services:
-  student01:
-    build: ./services/student01
-    container_name: student01
+  student02:
+    build: ./services/student02
+    container_name: student02
     ports:
-      - "8101:8080"
+      - "8102:8080"
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost:8080/health"]
       interval: 5s
